@@ -1,0 +1,22 @@
+PackageIdentifier: SyncTERM.SyncTERM
+PackageName: SyncTERM
+Moniker: SyncTERM
+PackageVersion: 1.1
+Publisher: deuce
+Author: deuce
+License: Copyright (C) 2015 bbs.io ISC Liscense
+LicenseUrl: https://raw.githubusercontent.com/bbs-io/syncterm-windows/master/LICENSE
+MinimumOSVersion: 10.0.0.0
+PackageUrl: syncterm.bbsdev.net
+ShortDescription: SyncTERM is a terminal BBS client
+Tags:
+- BBS
+
+InstallerType: inno
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/bbs-io/syncterm-windows/releases/download/1.1/SyncTERM-1.1-Setup.exe
+  InstallerSha256: f17549881804ef2558611ce8263b4ba42b6903e9d2cf819c9b1747cd0aa53ef7
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
